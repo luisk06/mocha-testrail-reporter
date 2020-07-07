@@ -1,0 +1,70 @@
+{
+  "_from": "git+https://github.com/djom20/mocha-testrail-reporter.git",
+  "_id": "mocha-testrail-reporter@1.0.13",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/mocha-testrail-reporter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "mocha-testrail-reporter@git+https://github.com/djom20/mocha-testrail-reporter.git",
+    "name": "mocha-testrail-reporter",
+    "escapedName": "mocha-testrail-reporter",
+    "rawSpec": "git+https://github.com/djom20/mocha-testrail-reporter.git",
+    "saveSpec": "git+https://github.com/djom20/mocha-testrail-reporter.git",
+    "fetchSpec": "https://github.com/djom20/mocha-testrail-reporter.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/djom20/mocha-testrail-reporter.git#579913a01cee4b31ed5728fbd0b387a947f7d968",
+  "_spec": "mocha-testrail-reporter@git+https://github.com/djom20/mocha-testrail-reporter.git",
+  "_where": "/Users/luismorillo/automatedtestsuites",
+  "author": {
+    "name": "Pierre Awaragi",
+    "email": "pierre@awaragi.com"
+  },
+  "bugs": {
+    "url": "https://github.com/awaragi/mocha-testrail-reporter/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/node": "^6.0.58",
+    "btoa": "^1.1.2",
+    "unirest": "^0.5.1"
+  },
+  "deprecated": false,
+  "description": "A Testrail reporter for mocha including TestRail API basic library",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.36",
+    "chai": "^3.5.0",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.4"
+  },
+  "homepage": "https://github.com/awaragi/mocha-testrail-reporter#readme",
+  "keywords": [
+    "mocha",
+    "testrail",
+    "reporter"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mocha-testrail-reporter",
+  "peerDependencies": {
+    "mocha": "^3 || ^2.2.5"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaragi/mocha-testrail-reporter.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run tsc",
+    "clean": "rimraf dist",
+    "test": "mocha dist/test",
+    "tsc": "tsc"
+  },
+  "version": "1.0.13"
+}
